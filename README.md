@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS usuarios (
     code_qr BOOLEAN DEFAULT FALSE
 );
 
-# Trigger:
+ - Trigger:
 
 DELIMITER //
 CREATE TRIGGER actualizar_code_qr
@@ -30,13 +30,13 @@ END;
 DELIMITER ;
 
 
-#Ejemplo:
+-Ejemplo:
 
 INSERT INTO usuarios (id, username, password, codigo_mfa, code_qr) VALUES (0 ,'usuario0', 'contraseña0', NULL, FALSE);
 
 
 
-# Ejecutas el fichero mfa_login_master 
+# Ejecutas el fichero mfa_login_master.py 
 
 
 
