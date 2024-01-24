@@ -1,6 +1,6 @@
 # Mfa_login_panel
 
-Este es un fichero de login , que implatan un MFA
+Este es un fichero de login , que implata un MFA de seguridad
 Se puede configurar con  "google autentificato"
 
 # Instalas el requirements.txt.txt
