@@ -30,7 +30,7 @@ END;
 DELIMITER ;
 
 
--Ejemplo:
+- Ejemplo:
 
 INSERT INTO usuarios (id, username, password, codigo_mfa, code_qr) VALUES (0 ,'usuario0', 'contraseña0', NULL, FALSE);
 
