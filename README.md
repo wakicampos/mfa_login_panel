@@ -3,7 +3,7 @@
 Este es un fichero de login , que implatan un MFA
 Se puede configurar con  "google autentificato"
 
-# Instalas el requesmetn.txt
+# Instalas el requirements.txt.txt
 
 # Hay que generera la siguinte estrutura de base de datos: 
 
